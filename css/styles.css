@@ -8,13 +8,30 @@ body {
 }
 
 .encabezado {
-    justify-content: space-between;
-    display: flex;
-flex-direction: column;}
+justify-content:center;
+display: flex;
+flex-direction: column-reverse, ;
+text-decoration: none;
+color: aquamarine;
+}
 
 .logo {
     max-width: 6%;
 }
+
+.portada {
+    color: aliceblue;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    background-image: url(/img/site-header-background.jpeg)
+    
+}
+
+
+
 
 
 

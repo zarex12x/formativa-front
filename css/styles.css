@@ -1,0 +1,20 @@
+@font-face {
+    font-family: segoi-ui;
+    src: url('../segoe-ui-4-cufonfonts/Segoe\ UI.ttf');
+}
+
+body {
+    font-family: segoi-ui;
+}
+
+.encabezado {
+    justify-content: space-between;
+    display: flex;
+flex-direction: column;}
+
+.logo {
+    max-width: 6%;
+}
+
+
+
